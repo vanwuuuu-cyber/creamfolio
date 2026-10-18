@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+build-device/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+.cache/
+
+# 个人数据 —— 绝对不要提交
+holdings.json
+holdings-seed.local.json
+*.local.json
+sms_export.csv
+holdings.backup-*.json
+
+# 演示截图含真实持仓金额，默认不入库
+screenshots/
